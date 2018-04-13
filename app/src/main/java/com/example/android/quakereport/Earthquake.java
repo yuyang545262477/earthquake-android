@@ -1,17 +1,15 @@
 package com.example.android.quakereport;
 
-import java.util.TooManyListenersException;
 
 public class Earthquake {
     private String mMagnitude;
     private String mLocation;
-    private String mDate;
+    //    private String mDate;
     private long mTimeMilliseconds;
 
     Earthquake(String magnitude, String location, Long timeInMilliseconds) {
         mMagnitude = magnitude;
         mLocation = location;
-//        mDate = data;
         mTimeMilliseconds = timeInMilliseconds;
     }
 

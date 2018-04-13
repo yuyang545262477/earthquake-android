@@ -6,15 +6,23 @@
     android:orientation="horizontal"
     android:padding="16dp">
 
+    <!--magnitude-->
     <TextView
         android:id="@+id/magnitude"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         tools:text="8.9" />
+    <!--location-offset -->
+    <TextView
+        android:id="@+id/location_offset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="30km S of" />
 
     <TextView
-        android:id="@+id/location"
+        android:id="@+id/primary_location"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
