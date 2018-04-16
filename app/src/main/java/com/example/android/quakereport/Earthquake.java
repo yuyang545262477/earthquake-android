@@ -1,19 +1,21 @@
 package com.example.android.quakereport;
 
 
+import java.util.zip.DeflaterOutputStream;
+
 public class Earthquake {
-    private String mMagnitude;
+    private double mMagnitude;
     private String mLocation;
     //    private String mDate;
     private long mTimeMilliseconds;
 
-    Earthquake(String magnitude, String location, Long timeInMilliseconds) {
+    Earthquake(double magnitude, String location, Long timeInMilliseconds) {
         mMagnitude = magnitude;
         mLocation = location;
         mTimeMilliseconds = timeInMilliseconds;
     }
 
-    public String getMagnitude() {
+    public double getMagnitude() {
         return mMagnitude;
     }
 
